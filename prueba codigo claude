@@ -1,0 +1,17 @@
+# Navega a la carpeta del proyecto
+cd ruta/a/inmoconnecto
+
+# Inicializa un repositorio Git
+git init
+
+# Añade todos los archivos
+git add .
+
+# Crea el primer commit
+git commit -m "Versión inicial de InmoConnecto"
+
+# Crea un repositorio en GitHub y conecta tu repositorio local
+git remote add origin https://github.com/tu-usuario/inmoconnecto.git
+
+# Sube los cambios
+git push -u origin main
